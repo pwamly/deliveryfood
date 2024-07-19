@@ -16,7 +16,7 @@ export class TabNavigation extends Component {
         <Tab.Navigator 
         screenOptions={{
           headerShown:false,
-          tabBarActiveTintColor:Colors.PRIMARY
+          tabBarActiveTintColor:'pink'
         }}><>
         <Tab.Screen name="home" component={HomeScreen} options={{
           tabBarLabel:({color})=>(<Text style={{color:color,fontSize:12,marginTop:-7}}>Home</Text>),tabBarIcon:({color,size})=>(
