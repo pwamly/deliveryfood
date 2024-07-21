@@ -3,6 +3,7 @@ import React from 'react'
 import { StyleSheet } from 'react-native-web'
 import { colors } from 'react-native-tailwindcss'
 import { FontAwesome } from '@expo/vector-icons'
+import Slider from './Slider'
 
 const Header = () => {
   return (
