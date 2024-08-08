@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import GlobalApi from '../../utils/GlobalApi'
 
 const Slider = () => {
-    const [slider,setSlider]=useState([]);
+    const [slider,setSlider]=useState([]); 
     useEffect(()=>{
         getSlider();
     },[]);
