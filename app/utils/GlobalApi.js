@@ -17,7 +17,6 @@ const options = {
     const result = await axios.request(options);
   return result.data.data;
  }
- 
  export default {
-    getSlider
+  getSlider
  }
